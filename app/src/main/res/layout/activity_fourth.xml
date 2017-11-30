@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thandiwe.tourguid.FourthActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_next" />
+
+            <ImageView
+                android:id="@+id/image_plate"
+                android:layout_width="171dp"
+                android:layout_height="177dp"
+                app:srcCompat="@drawable/meat" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="176dp"
+                android:layout_height="131dp"
+                app:srcCompat="@drawable/plate" />
+
+            <ImageView
+                android:id="@+id/image_p1"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/p1" />
+
+            <ImageView
+                android:id="@+id/image_salads"
+                android:layout_width="173dp"
+                android:layout_height="131dp"
+                app:srcCompat="@drawable/salads" />
+
+            <ImageView
+                android:id="@+id/image_burger"
+                android:layout_width="187dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/burger" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

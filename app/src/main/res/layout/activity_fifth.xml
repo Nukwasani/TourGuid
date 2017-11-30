@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thandiwe.tourguid.FifthActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="194dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/sitting" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="196dp"
+                android:layout_height="115dp"
+                app:srcCompat="@drawable/sitting2" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="197dp"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/sit" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="199dp"
+                android:layout_height="213dp"
+                app:srcCompat="@drawable/hotel2" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
